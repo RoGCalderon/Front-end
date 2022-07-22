@@ -1,17 +1,11 @@
 
-.nav{
-    background-color: #4295f5;
-    height: 80px;
-}
 .banner{
     width: 130%;
     height: 350px;
     padding: 0;
     margin: 0;
 }
-div a{
-    margin:10px;
- }
+
 
 .seccion{
     border: 2px solid #23044a;

@@ -10,6 +10,7 @@ import { ExperienciaLaboralComponent } from './components/experiencia-laboral/ex
 import { HardSoftSkillsComponent } from './components/hard-soft-skills/hard-soft-skills.component';
 import { ProyectosComponent } from './components/proyectos/proyectos.component';
 import { IdiomasComponent } from './components/idiomas/idiomas.component';
+import { NavComponent } from './components/nav/nav.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { IdiomasComponent } from './components/idiomas/idiomas.component';
     ExperienciaLaboralComponent,
     HardSoftSkillsComponent,
     ProyectosComponent,
-    IdiomasComponent
+    IdiomasComponent,
+    NavComponent
   ],
   imports: [
     BrowserModule,

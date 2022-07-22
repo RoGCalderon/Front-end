@@ -7,3 +7,21 @@
     top: 45%;
     left:5%;
 }
+.escribiendo{
+    display: inline-block;
+}
+h1{
+    border-right: 2.5px solid black;
+    animation: cursor .5s infinite, 
+      escribiendo 3.5s steps(13,end);
+    white-space: nowrap;
+    overflow: hidden;
+}
+@keyframes cursor {
+    0% {border-color: transparent;}
+    50% {border-color: black ;}
+}
+@keyframes escribiendo{
+    from{width:0}
+    to{width:100%}
+}
