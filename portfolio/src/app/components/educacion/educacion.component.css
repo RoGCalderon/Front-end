@@ -1,7 +1,14 @@
 .info-foto{
     width:70%;
 }
+.uni{
+    width:55%;
+}
 
 .icon{
     margin: 6px;
+}
+.uni{
+    border-radius: 50%;
+    width:60%;
 }

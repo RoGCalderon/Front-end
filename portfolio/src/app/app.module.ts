@@ -11,6 +11,10 @@ import { HardSoftSkillsComponent } from './components/hard-soft-skills/hard-soft
 import { ProyectosComponent } from './components/proyectos/proyectos.component';
 import { IdiomasComponent } from './components/idiomas/idiomas.component';
 import { NavComponent } from './components/nav/nav.component';
+import { TecnologiasComponent } from './components/tecnologias/tecnologias.component';
+import { HttpClient, HttpClientModule } from '@angular/common/http';
+import { LoginComponent } from './components/login/login.component';
+import { HomeComponent } from './components/home/home.component'
 
 @NgModule({
   declarations: [
@@ -22,11 +26,15 @@ import { NavComponent } from './components/nav/nav.component';
     HardSoftSkillsComponent,
     ProyectosComponent,
     IdiomasComponent,
-    NavComponent
+    NavComponent,
+    TecnologiasComponent,
+    LoginComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
